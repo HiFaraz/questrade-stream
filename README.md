@@ -3,9 +3,9 @@ Code snippets for streaming data from Questrade API
 
 ## The problem
 
-I'm trying to connect to Questrade's streaming API. The code is in ``index.js`` and it works once. When it works, it gives me:
+I'm trying to connect to Questrade's streaming API. The code is in `index.js` and it works once. When it works, it gives me:
 
-1. ``{"success": true}``, indicating that my token is valid, and
+1. `{"success": true}`, indicating that my token is valid, and
 2. regular messages with stock quote information (see example output in sections below)
 
 When I terminate the process (with Ctrl+C) and start it again, it only gives me the first message and then nothing else.
@@ -18,12 +18,12 @@ Help requested in getting this to work. It worked once, with a sample output as 
 
 To try this yourself:
 1. Obtain an access token from Questrade
-1. Make an authenticated call to v1/markets/quotes?stream=true&mode=WebSocket&ids=27426,2067121
+1. Make an authenticated call to `v1/markets/quotes?stream=true&mode=WebSocket&ids=27426,2067121`
 1. Edit `index.js` with the streaming port, access token, and api server address
-1. Install the dependencies with ``$ npm install``
-1. Run the script with ``$ node ./``
+1. Install the dependencies with $ npm install`
+1. Run the script with $ node ./`
 
-You can submit a pull request, create an issue, or just email me at ``hello@farazsyed.com``
+You can submit a pull request, create an issue, or just email me at `hello@farazsyed.com`
 
 Thank you!
 
