@@ -1,0 +1,28 @@
+{
+  "name": "questrade-stream",
+  "version": "0.1.0",
+  "description": "Code snippets for streaming data from Questrade API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hifaraz@github.com/HiFaraz/questrade-stream.git"
+  },
+  "keywords": [
+    "questrade",
+    "api",
+    "stream",
+    "streaming"
+  ],
+  "author": "Faraz Syed <hello@farazsyed.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiFaraz/questrade-stream/issues"
+  },
+  "homepage": "https://github.com/HiFaraz/questrade-stream#readme",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}
