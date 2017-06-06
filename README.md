@@ -1,4 +1,6 @@
 # questrade-stream
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/HiFaraz/questrade-stream.svg)](https://greenkeeper.io/)
 Code snippets for streaming data from Questrade API
 
 ## The problem
