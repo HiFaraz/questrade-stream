@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/HiFaraz/questrade-stream#readme",
   "dependencies": {
-    "ws": "^1.1.1"
+    "ws": "^3.0.0"
   }
 }
